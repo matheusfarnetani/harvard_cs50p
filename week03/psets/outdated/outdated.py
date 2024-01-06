@@ -103,7 +103,7 @@ def get_date(prompt):
         if not date:
             continue
 
-        # print(date)
+        # Checking for comma
         if date[0].isalpha() and not date[1].endswith(","):
             continue
         elif date[0].isalpha() and date[1].endswith(","):
@@ -118,10 +118,6 @@ def get_date(prompt):
             continue
 
         return date
-
-
-def remove_punctuation(s):
-    return "".join(filter(lambda x: x.isalpha() or x.isdigit(), s))
 
 
 if __name__ == "__main__":
