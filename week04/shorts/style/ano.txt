@@ -1,0 +1,30 @@
+Python Enhancement Proposal (PEP) 8:
+    standards for how the code should look like
+
+    https://peps.python.org/pep-0008/
+
+    "Readability counts"
+        "A style guid is about consistency. Consistency with this style
+    guide is important. Consistency within a project is more important.
+    Consistency within one modulo or function is the most important."
+
+    ● Indentation
+        4 spaces
+    ● Tabs or Space?
+        SPACES
+    ● Maximum Line Length
+    ● Blank Lines
+    ● Imports
+
+    pylint
+        Program that analyses code to check if there is improvements
+        pip install pylint
+
+    pycodestyle
+        https://pycodestyle.pycqa.org
+
+    black
+        pip install black
+        https://black.readthedocs.io
+    
+    
